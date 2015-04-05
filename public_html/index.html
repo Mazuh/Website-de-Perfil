@@ -38,7 +38,17 @@ THE SOFTWARE.
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
         <link rel="stylesheet" type="text/css" href="style.css" media="all" /> 
-
+        <style>
+            .linha_unica *{
+                display: inline-block;
+                float: left;
+                margin-left: 10px;
+            }
+            .linha_unica h4{
+                margin-top: 1.5em;
+            }
+        </style>
+        
         <!-- Javascript -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/kickstart.js"></script>
@@ -69,7 +79,7 @@ THE SOFTWARE.
                     </span>
                 </h1>
                 
-                <h5 style="margin-top: 0px;
+                <h4 style="margin-top: 0px;
                     color: lightgray;
                     margin-bottom: 40px;
                     background-color: black;
@@ -77,13 +87,26 @@ THE SOFTWARE.
                     margin: auto;
                     text-align: center;">
                     Pesquisador e desenvolvedor de soluções em Informática.
-                </h5>
+                </h4>
 
                 <!-- Corpo -->
                 
-                <div class="col_12" style="margin-top:10px;
-                     background-color: rgba(255, 255, 255, 0.4)">
-                    <h1>Teste!</h1>
+                <div id="redes_sociais" class="col_12" style="margin-top:10px;
+                     background-color: rgba(255, 255, 255, 0.4);
+                     width: 98%;
+                     margin: 10px;">
+                    
+                    <div class="linha_unica">
+                        <div class="col_7" style="">
+                            <p><i class="fa fa-facebook-square fa-5x"></i></p>
+                            <h4><strong>facebook.com/marcell.guilherme</strong></h4>
+                        </div>
+                        <div class="col_5">
+                            <p><i class="fa fa-github-square fa-5x"></i></p>
+                            <h4><strong>github.com/mazuh</strong></h4>
+                        </div>
+                    </div>
+                    
                 </div>
 
             </div>
