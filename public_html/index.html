@@ -24,7 +24,7 @@ THE SOFTWARE.
 -->
 <html>
     <head>
-        
+
         <!-- META -->
         <title>Mazuh - Desenvolvedor</title>
         <meta charset="UTF-8"/>
@@ -39,203 +39,292 @@ THE SOFTWARE.
         <link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
         <link rel="stylesheet" type="text/css" href="style.css" media="all" /> 
         <style>
+            /* Div responsiva que engloba toda a página
+            fonte background-image:
+            http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/Hi-Tech-Wallpaper-16.jpg
+            */
+            #grade-all{
+                padding-top: 1.5em;
+                padding-bottom: 1.5em;
+                background-image: url(css/img/mazuh/bg-codigo.jpg);
+            }
+
+            /* Título e subtítulo principais localizados no topo */
+            
+            #mazuh-titulo{
+                background-color: black;
+                padding-left: 10px;
+                padding-right: 10px;
+                color: white;
+                text-shadow: 0.2em 0.2em 0.9em #000;
+                font-size: 2em;
+            }
+            
+            #frase-subtitulo{
+                margin-top: 0px;
+                color: lightgray;
+                margin-bottom: 40px;
+                background-color: black;
+                width: 70%;
+                margin: auto;
+                text-align: center;
+            }
+            
+
+            /* Tabela cujo interior há as col_* do framework. */
+            #corpo{
+                background-color: rgba(240, 240, 240, 0.7);
+                width: 98%;
+                border: 0.5px solid black;
+                margin: auto;
+                margin-top: 10px;
+            }
+            
+            /* Faixas cinzas com titulações */
             table h3{
                 background-color: #333;
                 color: white;
             }
+            
+            /* Links */
+            h4 a{
+                text-decoration: underline;
+                color: #000;
+            }
+            h4 a:hover{
+                text-decoration: none;
+                color: #006;
+            }
+            h4 a:visited{
+                text-decoration: none;
+                color: #006;
+            }
+            
+            /* Faixa inferior com copyright e referências */
+            #rodape{
+                background-color: #111;
+                color: white;
+                width: 100%;
+                margin: auto;
+                text-align: center;
+                font-size: larger;
+            }
+            /* E-mail dentro do rodapé */
+            #email{
+                text-decoration: underline;
+            }
+            
         </style>
-        
+
         <!-- Javascript -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/kickstart.js"></script>
-    
+
     </head>
     <body>
-        
-        <div class="grid">
-            
-            <div class="col_12" style="margin-top: 1.5em;
-                    background-image: url(css/img/mazuh/bg-codigo.jpg);
-                    padding-bottom: 800px;">
-            <!-- fonte background-img:
-            http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/Hi-Tech-Wallpaper-16.jpg -->
-                
-                <!-- Titulos -->
-                
-                <h1 class="center" style="margin-bottom: -10px;">
-                    <!--<img src="css/img/mazuh/caricatura.png" style="width: 2.5em"/>-->
-                    
-                    <br/>
-                    <span style="background-color: black;
-                                padding-left: 10px;
-                                padding-right: 10px;
-                                color: white;
-                                text-shadow: 0.2em 0.2em 0.9em #000;
-                                font-size: 2em;">
-                        Mazuh
-                    </span>
-                </h1>
-                
-                <h4 style="margin-top: 0px;
-                    color: lightgray;
-                    margin-bottom: 40px;
-                    background-color: black;
-                    width: 70%;
-                    margin: auto;
-                    text-align: center;">
-                    Pesquisador e desenvolvedor de soluções em Informática.
-                </h4>
 
-                <!-- Corpo -->
-                
-                <table
-                    style="background-color: rgba(240, 240, 240, 0.7);
-                    width: 98%;
-                    border: 0.5px solid black;
-                    margin: auto;
-                    margin-top: 10px;">
-                    
-                    <!-- MARKETING ___________________________ -->
-                    <tr>
-                        <td><h3 class="center">Criação de programas computacionais</h3></td>
-                    </tr>
-                    
-                    <!-- linha 1 -->
-                    <tr>
-                        <td>
-                            <!-- Android -->
-                            <div class="col_6">
-                                <h4 class="center">
-                                    <i class="fa fa-android fa-3x"></i>
-                                    <br>Para dispositivos Android
-                                </h4>
-                            </div>
-                            <!-- 3D -->
-                            <div class="col_6">
-                                <h4 class="center">
-                                    <i class="fa fa-desktop fa-3x"></i>
-                                    <br>Para Windows e Linux
-                                </h4>
-                            </div>
-                        </td>
-                    </tr>
-                    
-                    <!-- linha 2 -->
-                    <tr>
-                        <td>
-                            <!--  -->
-                            <div class="col_6">
-                                <h4 class="center">
-                                    <i class="fa fa-database fa-3x"></i>
-                                    <br>Com acesso a banco de dados (back-end)
-                                </h4>
-                            </div>
-                            <!--  -->
-                            <div class="col_6">
-                                <h4 class="center">
-                                    <i class="fa fa-sitemap fa-3x"></i>
-                                    <br>Com sistemas eletrônicos embarcados
-                                </h4>
-                            </div>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td><h3 class="center">Produção para entretenimento</h3></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <!--  -->
-                            <div class="col_6">
-                                <h4 class="center">
-                                    <i class="fa fa-gamepad fa-3x"></i>
-                                    <br>Desenvolvimento de jogos
-                                </h4>
-                            </div>
-                            <!--  -->
-                            <div class="col_6">
-                                <h4 class="center">
-                                    <i class="fa fa-cubes fa-3x"></i>
-                                    <br>Modelagem 3D
-                                </h4>
-                            </div>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td><h3 class="center">E também uso e suporte</h3></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <!--  -->
-                            <div class="col_6">
-                                <h4 class="center">
-                                    <i class="fa fa-linux fa-3x"></i>
-                                    <br>Programas open-source
-                                </h4>
-                            </div>
-                            <!--  -->
-                            <div class="col_6">
-                                <h4 class="center">
-                                    <i class="fa fa-wrench fa-3x"></i>
-                                    <br>Manutenção de computadores
-                                </h4>
-                            </div>
-                        </td>
-                    </tr>
-                    
-                    
-                    <!-- NETWORKING __________________________________ -->
-                    <tr>
-                        <td><h3 class="center">Curioso pra saber o que ando fazendo?</h3></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <!-- Lattes -->
-                            <div class="col_12">
-                                <h4 class="center">
-                                    <img src="css/img/mazuh/lattes-icon.png"/>
-                                    <br>Currículo Lattes
-                                </h4>
-                            </div>
-                            <!-- GitHub -->
-                            <div class="col_12">
-                                <h4 class="center">
-                                    <i class="fa fa-github-square fa-2x"></i>
-                                    <br>GitHub.com/Mazuh
-                                </h4>
-                            </div>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td><h3 class="center">Deseja entrar em contato?</h3></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <!-- Fb -->
-                            <div class="col_12">
-                                <h4 class="center">
-                                    <i class="fa fa-facebook-square fa-2x"></i>
-                                    <br>facebook.com/marcell.guilherme
-                                </h4>
-                            </div>
-                            <div class="col_12">
-                                <h4 class="center">
-                                    <i class="fa fa-envelope fa-2x"></i>
-                                    <br>marcell-mz@hotmail.com
-                                </h4>
-                            </div>
-                        </td>
-                    </tr>
-                    
-                </table>
-                
-            </div>
+        <div class="grid" id="grade-all">
             
+            <!-- Cabeçalho -->
+            <h1 class="center">
+                <span id="mazuh-titulo">Mazuh</span>
+            </h1>
+            <h4 id="frase-subtitulo">
+                Pesquisador e desenvolvedor de soluções em Informática.
+            </h4>
+
+            <!-- Corpo -->
+            <table id="corpo">
+
+                <!-- MARKETING 1 ___________________________ -->
+                <tr>
+                    <td><h3 class="center">Criação de programas computacionais</h3></td>
+                </tr>
+
+                <!-- 1 -->
+                <tr>
+                    <td>
+                        <!-- Android -->
+                        <div class="col_6">
+                            <h4 class="center">
+                                <i class="fa fa-android fa-3x"></i>
+                                <br>Para dispositivos Android
+                            </h4>
+                        </div>
+                        <!-- desktop -->
+                        <div class="col_6">
+                            <h4 class="center">
+                                <i class="fa fa-desktop fa-3x"></i>
+                                <br>Para Windows e Linux
+                            </h4>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- 2 -->
+                <tr>
+                    <td>
+                        <!-- db -->
+                        <div class="col_6">
+                            <h4 class="center">
+                                <i class="fa fa-database fa-3x"></i>
+                                <br>Com acesso a banco de dados (back-end)
+                            </h4>
+                        </div>
+                        <!-- arduino? rsrs -->
+                        <div class="col_6">
+                            <h4 class="center">
+                                <i class="fa fa-sitemap fa-3x"></i>
+                                <br>Com sistemas eletrônicos embarcados
+                            </h4>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- MARKETING 2 ___________________________ -->
+                <tr>
+                    <td><h3 class="center">Produção para entretenimento</h3></td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- games -->
+                        <div class="col_6">
+                            <h4 class="center">
+                                <i class="fa fa-gamepad fa-3x"></i>
+                                <br>Desenvolvimento de jogos
+                            </h4>
+                        </div>
+                        <!-- 3D -->
+                        <div class="col_6">
+                            <h4 class="center">
+                                <i class="fa fa-cubes fa-3x"></i>
+                                <br>Modelagem 3D
+                            </h4>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- MARKETING 3 ___________________________ -->
+                <tr>
+                    <td><h3 class="center">E também uso e suporte</h3></td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- linux icon, open source -->
+                        <div class="col_6">
+                            <h4 class="center">
+                                <i class="fa fa-linux fa-3x"></i>
+                                <br>Programas open-source
+                            </h4>
+                        </div>
+                        <!-- manutenção -->
+                        <div class="col_6">
+                            <h4 class="center">
+                                <i class="fa fa-wrench fa-3x"></i>
+                                <br>Manutenção de computadores
+                            </h4>
+                        </div>
+                    </td>
+                </tr>
+
+
+                <!-- NETWORKING 1 __________________________________ -->
+                <tr>
+                    <td><h3 class="center">Curioso pra saber o que ando fazendo?</h3></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <!-- Lattes -->
+                        <div class="col_12">
+                            <h4 class="center">
+                                <a href="http://lattes.cnpq.br/9453534326361022"
+                                   target="_blank">
+                                    <img src="css/img/mazuh/lattes-icon.png"/>
+                                    <br>
+                                    Currículo Lattes
+                                </a>
+                            </h4>
+                        </div>
+                        <!-- GitHub. O ícone do lattes acima é cinza, logo este foi adaptado. -->
+                        <div class="col_12">
+                            <h4 class="center">
+                                <a href="https://github.com/Mazuh"
+                                   target="_blank">
+                                    <i class="fa fa-github-square fa-2x"
+                                       style="color: #222"></i>
+                                    <br>
+                                    GitHub.com/Mazuh
+                                </a>
+                            </h4>
+                        </div>
+                    </td>
+                </tr>
+
+
+                <!-- NETWORKING 2 ___________________________ -->
+                <tr>
+                    <td><h3 class="center">Deseja entrar em contato?</h3></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <!-- Fb -->
+                        <div class="col_12">
+                            <h4 class="center">
+                                <a href="https://facebook.com/marcell.guilherme"
+                                   target="_blank">
+                                    <i class="fa fa-facebook-square fa-2x"></i>
+                                    <br>
+                                    facebook.com/marcell.guilherme
+                                </a>
+                            </h4>
+                        </div>
+                        <!-- Email -->
+                        <div class="col_12">
+                            <h4 class="center">
+                                <i class="fa fa-envelope fa-2x"></i>
+                                <br><span id="email">marcell-mz@hotmail.com</span>
+                            </h4>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- Rodapé ___________________________ -->
+                <tr>
+                    <td>
+                        <footer class="col_12" id="rodape">
+                            <!-- referência git -->
+                            <p>
+                                
+                                <a href="https://github.com/Mazuh/Website-de-Perfil">
+                                    Copyright (c) 2015 Marcell Guilherme
+                                </a>
+                                
+                            </p>
+                            
+                            <!-- licença e framework -->
+                            <p>
+                                
+                                Desenvolvido por "Mazuh" sob a 
+                                <a href="https://github.com/Mazuh/Website-de-Perfil/blob/master/LICENSE">
+                                    MIT License
+                                </a>
+                                usando o framework
+                                <a href="http://www.99lime.com/elements/"
+                                   target="_blank">
+                                    HTML KickStart
+                                </a>
+                                
+                            </p>
+                            
+                        </footer>
+                    </td>
+                </tr>
+                
+            </table>
+
         </div> <!-- End Grid -->
-        
+
     </body>
 </html>
