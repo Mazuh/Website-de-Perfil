@@ -5,3 +5,17 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+h1{
+    font-family: "Chelsea Market", Georgia, serif;
+}
+
+
+.navbar-brand{
+    background-color: black;
+}
+
+.navbar-brand:hover{
+    color: lightgray !important;
+    background-color: black !important;
+}
