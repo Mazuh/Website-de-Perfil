@@ -1,6 +1,4 @@
-body {
-  padding-top: 50px;
-}
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -10,12 +8,21 @@ h1{
     font-family: "Chelsea Market", Georgia, serif;
 }
 
-
-.navbar-brand{
-    background-color: black;
+.menu-superior{
+    background-color: #2980b9;
+    padding-top: 5px;
 }
 
-.navbar-brand:hover{
-    color: lightgray !important;
-    background-color: black !important;
+.menu-superior ul{
+    width: 65%;
+    margin: auto;
+}
+
+.menu-superior li a{
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.menu-superior li a:hover{
+    background-color: #f39c12;
 }
