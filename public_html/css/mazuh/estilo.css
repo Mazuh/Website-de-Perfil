@@ -47,7 +47,6 @@ Corpo - Apresentação
 }
 
 #apresentacao .container{
-    text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
     color: #fff;
@@ -59,4 +58,12 @@ Corpo - Apresentação
     padding-left: 10px;
     padding-right: 10px;
     font-size: 1.1em;
+}
+
+/*
+Corpo - ...
+*/
+
+#servicos i{
+    font-size: 5em;
 }
