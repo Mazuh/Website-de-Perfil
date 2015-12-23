@@ -1,36 +1,62 @@
-
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
-}
-
+/*
+Global
+*/
 h1{
     font-family: "Chelsea Market", Georgia, serif;
 }
 
-.menu-superior{
+/*
+Menu
+*/
+#menu-superior{
     background-color: #2980b9;
+    margin-bottom: 0;
 }
 
-.menu-superior ul{
+#menu-superior ul{
     width: 65%;
     margin: auto;
 }
 
-.menu-superior li{
+#menu-superior li{
     padding-bottom: 0;
     padding-top: 0;
 }
 
-.menu-superior li a{
+#menu-superior li a{
     color: #fff;
     font-size: 1.1em;
 }
 
-.menu-superior li a:hover{
+#menu-superior li a:hover{
     background-color: #f39c12;
 }
 
-.menu-superior li:first-child a{
+#menu-superior li:first-child a{
     background-color: transparent;
+}
+
+/*
+Corpo - Apresentação
+*/
+
+#apresentacao{
+    background-image: url(img/coding.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#apresentacao .container{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+#apresentacao h1 span{
+    background-color: #f39c12;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.1em;
 }
