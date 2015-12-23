@@ -10,12 +10,16 @@ h1{
 
 .menu-superior{
     background-color: #2980b9;
-    padding-top: 5px;
 }
 
 .menu-superior ul{
     width: 65%;
     margin: auto;
+}
+
+.menu-superior li{
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .menu-superior li a{
@@ -25,4 +29,8 @@ h1{
 
 .menu-superior li a:hover{
     background-color: #f39c12;
+}
+
+.menu-superior li:first-child a{
+    background-color: transparent;
 }
