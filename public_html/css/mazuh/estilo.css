@@ -60,8 +60,26 @@ Corpo - Apresentação
     font-size: 1.1em;
 }
 
+
 /*
-Corpo - ...
+Corpo - Geral
+*/
+
+.div-cor-1{
+    background-color: #EFEFEF;
+}
+
+.div-cor-1{
+    
+}
+
+#portfolio h1 span,
+#curriculo h1 span{
+    border-bottom: 1px solid #F1C40F;
+}
+
+/*
+Corpo - Serviços
 */
 
 #servicos i{
