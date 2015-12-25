@@ -66,6 +66,10 @@ Corpo - Apresentação
 Corpo - Geral
 */
 
+h2, #servicos h3 span{
+    color: #E67E22;
+}
+
 .div-cor-1{
     background-color: #EFEFEF;
 }
@@ -85,6 +89,6 @@ Corpo - Geral
 /*
 Corpo - Serviços
 */
-#servicos i{
-    font-size: 5em;
+#servicos h3 i{
+    font-size: 3em;
 }
