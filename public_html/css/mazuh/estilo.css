@@ -54,11 +54,12 @@ Corpo - Apresentação
 }
 
 #apresentacao h1 span{
-    background-color: #f39c12;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: rgba(243, 156, 18, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 1.1em;
 }
+
 
 
 /*
@@ -73,15 +74,17 @@ Corpo - Geral
     
 }
 
-#portfolio h1 span,
-#curriculo h1 span{
-    border-bottom: 1px solid #F1C40F;
+.titulo-area{
+    text-align: center;
+}
+
+.titulo-area i{
+    font-size: 1em !important;
 }
 
 /*
 Corpo - Serviços
 */
-
 #servicos i{
     font-size: 5em;
 }
