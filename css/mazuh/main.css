@@ -6,33 +6,33 @@ h1{
 }
 
 /*
-Menu
+Main menu
 */
-#menu-superior{
+#main-menu{
     background-color: #2980b9;
     margin-bottom: 0;
 }
 
-#menu-superior ul{
+#main-menu ul{
     width: 65%;
     margin: auto;
 }
 
-#menu-superior li{
+#main-menu li{
     padding-bottom: 0;
     padding-top: 0;
 }
 
-#menu-superior li a{
+#main-menu li a{
     color: #fff;
     font-size: 1.1em;
 }
 
-#menu-superior li a:hover{
+#main-menu li a:hover{
     background-color: #f39c12;
 }
 
-#menu-superior li:first-child a{
+#main-menu li:first-child a{
     background-color: transparent;
 }
 
@@ -40,20 +40,20 @@ Menu
 Corpo - Apresentação
 */
 
-#apresentacao{
+#presentation{
     background-image: url(img/coding.jpg);
     background-position: center;
     background-size: cover;
 }
 
-#apresentacao .container{
+#presentation .container{
     margin-top: 30px;
     margin-bottom: 30px;
     color: #fff;
     text-shadow: 2px 2px 4px #000;
 }
 
-#apresentacao h1 span{
+#presentation h1 span{
     background-color: rgba(243, 156, 18, 0.8);
     padding-left: 20px;
     padding-right: 20px;
