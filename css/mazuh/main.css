@@ -37,7 +37,7 @@ Main menu
 }
 
 /*
-Corpo - Apresentação
+Presentation
 */
 
 #presentation{
@@ -61,10 +61,16 @@ Corpo - Apresentação
 }
 
 /*
-Corpo - Serviços
+Contacts
 */
-#servicos h3 i{
-    font-size: 3em;
+
+#contacts .col-md-3 h3 a{
+    text-decoration: none;
+    color: #E67E22;
+}
+
+#contacts .col-md-3 a{
+    color: #000;
 }
 
 /*
