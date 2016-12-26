@@ -41,7 +41,7 @@ Corpo - Apresentação
 */
 
 #presentation{
-    background-image: url(img/coding.jpg);
+    background-image: url(assets/misc/coding.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -65,18 +65,6 @@ Corpo - Serviços
 */
 #servicos h3 i{
     font-size: 3em;
-}
-
-.div-cor-1{
-    
-}
-
-.titulo-area{
-    text-align: center;
-}
-
-.titulo-area i{
-    font-size: 1em !important;
 }
 
 /*
