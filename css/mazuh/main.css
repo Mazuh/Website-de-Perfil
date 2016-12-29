@@ -5,6 +5,10 @@ h1{
     font-family: "Chelsea Market", Georgia, serif;
 }
 
+h2{
+    color: #E67E22;
+}
+
 /*
 Main menu
 */
@@ -37,7 +41,7 @@ Main menu
 }
 
 /*
-Presentation
+Main title
 */
 
 #resume{
@@ -77,11 +81,12 @@ Contacts
 Corpo - Geral
 */
 
-h2, #servicos h3 span{
-    color: #E67E22;
+.row .col-md-6 img{
+    margin-bottom: 25px;
+    box-shadow: #000 2px 2px 2px 1px;
 }
 
-.div-cor-1{
+.div-cor-escura{
     background-color: #EFEFEF;
 }
 
