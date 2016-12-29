@@ -40,20 +40,20 @@ Main menu
 Presentation
 */
 
-#presentation{
+#resume{
     background-image: url(assets/misc/coding.jpg);
     background-position: center;
     background-size: cover;
 }
 
-#presentation .container{
+#resume .container{
     margin-top: 30px;
     margin-bottom: 30px;
     color: #fff;
     text-shadow: 2px 2px 4px #000;
 }
 
-#presentation h1 span{
+#resume h1 span{
     background-color: rgba(243, 156, 18, 0.8);
     padding-left: 20px;
     padding-right: 20px;
