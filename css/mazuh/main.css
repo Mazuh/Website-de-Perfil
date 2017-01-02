@@ -90,26 +90,6 @@ Corpo - Geral
     background-color: #EFEFEF;
 }
 
-.avaliacao-boa,
-.avaliacao-mediana,
-.avaliacao-ruim{
-    color: #FFF;
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
-.avaliacao-boa{
-    background-color: #27ae60;
-}
-
-.avaliacao-mediana{
-    background-color: #2980b9;
-}
-
-.avaliacao-ruim{
-    background-color: #E67E22;
-}
-
 /*
 Footer
 */
