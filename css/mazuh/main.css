@@ -78,23 +78,25 @@ Contacts
 }
 
 /*
-Corpo - Geral
+Body - general
 */
 
 .row .col-md-6 img{
     margin-bottom: 25px;
+    margin-top: 25px;
     box-shadow: #000 2px 2px 2px 1px;
 }
 
-.div-cor-escura{
+.darker-bg{
     background-color: #EFEFEF;
 }
 
 /*
-Footer
+Footer, copyright
 */
 
 footer{
+    margin-top: 25px;
     padding-top: 10px;
     background-color: #2c3e50;
     color: #fff;
