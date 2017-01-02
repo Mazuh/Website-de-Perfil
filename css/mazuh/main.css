@@ -109,3 +109,22 @@ Corpo - Geral
 .avaliacao-ruim{
     background-color: #E67E22;
 }
+
+/*
+Footer
+*/
+
+footer{
+    padding-top: 10px;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover{
+    color: #d35400;
+}
