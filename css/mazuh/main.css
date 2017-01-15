@@ -71,6 +71,12 @@ Main title
     font-size: 2em;
 }
 
+#resume small{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(243, 156, 18, 1);
+    padding: 5px;
+}
+
 /*
 Contacts
 */
