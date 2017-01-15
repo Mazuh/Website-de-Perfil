@@ -22,6 +22,14 @@ Main menu
     margin-bottom: 0;
 }
 
+#main-menu .navbar-header button{
+    background: none;
+}
+
+#main-menu .navbar-header button:hover{
+    background: #f39c12;
+}
+
 #main-menu .navbar-header .navbar-brand{
     display: block;
     margin-left: 30px;
@@ -42,7 +50,7 @@ Main menu
     background-color: #fff;
 }
 
-#main-menu nav #navbar-content{
+#main-menu #navbar-content{
     width: 43%;
     margin: auto;
 }
@@ -61,11 +69,7 @@ Main menu
 #main-menu #navbar-content li a:hover{
     background-color: #f39c12;
 }
-/*
-#main-menu li:first-child a{
-    background-color: transparent;
-}
-*/
+
 /*
 Main title
 */
