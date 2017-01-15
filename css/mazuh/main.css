@@ -9,6 +9,10 @@ h2{
     color: #E67E22;
 }
 
+p, li{
+    font-size: 1.2em
+}
+
 /*
 Main menu
 */
