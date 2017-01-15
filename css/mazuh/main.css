@@ -17,36 +17,55 @@ p, li{
 Main menu
 */
 
-#main-menu nav{
+#main-menu .container-fluid{
     background-color: #2980b9;
     margin-bottom: 0;
 }
 
-#main-menu ul{
-    width: 65%;
+#main-menu .navbar-header .navbar-brand{
+    display: block;
+    margin-left: 30px;
+    color: #fff;
+}
+
+@media (min-width: 768px){
+    #main-menu .navbar-header .navbar-brand{
+        display: none;
+    }
+}
+
+#main-menu .navbar-header .navbar-toggle{
+    margin-right: 30px;
+}
+
+#main-menu .navbar-header .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+
+#main-menu nav #navbar-content{
+    width: 43%;
     margin: auto;
 }
 
-#main-menu li{
+#main-menu #navbar-content li{
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1.1em;
 }
 
-#main-menu li a{
+#main-menu #navbar-content li a{
     color: #fff;
     font-size: 1.1em;
 }
 
-#main-menu li a:hover{
+#main-menu #navbar-content li a:hover{
     background-color: #f39c12;
-    font-weight: bold;
 }
-
+/*
 #main-menu li:first-child a{
     background-color: transparent;
 }
-
+*/
 /*
 Main title
 */
