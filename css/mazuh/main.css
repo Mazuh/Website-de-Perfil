@@ -16,7 +16,8 @@ p, li{
 /*
 Main menu
 */
-#main-menu{
+
+#main-menu nav{
     background-color: #2980b9;
     margin-bottom: 0;
 }
@@ -29,6 +30,7 @@ Main menu
 #main-menu li{
     padding-bottom: 0;
     padding-top: 0;
+    font-size: 1.1em;
 }
 
 #main-menu li a{
@@ -38,6 +40,7 @@ Main menu
 
 #main-menu li a:hover{
     background-color: #f39c12;
+    font-weight: bold;
 }
 
 #main-menu li:first-child a{
