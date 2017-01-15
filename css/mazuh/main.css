@@ -113,6 +113,14 @@ Contacts
     color: #000;
 }
 
+/* 
+Portfolio
+*/
+
+#portfolio img{
+    margin-bottom: 0;
+}
+
 /*
 Body - general
 */
