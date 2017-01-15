@@ -81,6 +81,11 @@ Contacts
 Body - general
 */
 
+section{
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+
 .row .col-md-6 img{
     margin-bottom: 25px;
     margin-top: 25px;
