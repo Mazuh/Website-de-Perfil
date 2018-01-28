@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f6fa;
+}
+
+body > header {
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    background-color: #dcdde1;
+}
+
+body > header h1 {
+    margin-top: 0;
+}
+
+body > header h1 {
+    color: #192a56;
+}
+
+body > header h1 small {
+    color: #273c75;
+}
+
+body > section {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    width: 70%;
+    border-left: 5px solid;
+}
+
+#in-a-nutshell {
+    border-color: #fbc531;
+}
+
+#more-about-me {
+    border-color: #44bd32
+}
+
+#academic-talks-and-experiences {
+    border-color: #8c7ae6;
+}
+
+body > footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #dcdde1;
+    text-align: center;
+}
+
+body > footer > p {
+    margin-bottom: 0;
+}
+
+body > footer > p a {
+    text-decoration: none;
+}
