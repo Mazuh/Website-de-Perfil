@@ -33,9 +33,19 @@
     </p>
   </section>
 
-  <section>
-    
-  </section>
+  <div id="play-my-snake-game" onclick="openSnakeGame();">
+    <h3><i class="material-icons">videogame_asset</i> Play my Snake game!</h3>
+    <p>
+        It's right here, ready to play, in case you're bored. <noscript>But reactivate your JavaScript first!</noscript>
+    </p>
+  </div>
+
+  <div id="snake-canvas-container" class="hidden">
+      <i class="material-icons close-btn" onclick="closeSnakeGame();">close</i>
+      <canvas id="snake-canvas" width="240" height="360">
+        You need an updated browser with <code>canvas</code> support for that!
+      </canvas>
+  </div>
 
   <section id="more-about-me">
     <h3><i class="material-icons">face</i> More about me</h3>
@@ -185,7 +195,34 @@
     </p>
   </footer>
 
-  <script src="./snake.js" type="text/javascript"/>
+  <script src="./snake.js" type="text/javascript"></script>
+
+  <script>
+    var GAME_CONTAINER_ID = 'snake-canvas-container';
+    var GAME_CANVAS_ID = 'snake-canvas';
+    var HIDDEN_CLASS = 'hidden';
+
+    function closeSnakeGame() {
+      containerElement = document.getElementById(GAME_CONTAINER_ID);
+      if (containerElement && containerElement.classList && snakeGameLoopAsInterval) {
+        clearInterval(snakeGameLoopAsInterval);
+        snakeGameLoopAsInterval = undefined;
+        containerElement.classList.add(HIDDEN_CLASS);
+      }
+    }
+
+    function openSnakeGame() {
+      containerElement = document.getElementById(GAME_CONTAINER_ID);
+      if (containerElement && containerElement.classList) {
+        if (!snakeGameLoopAsInterval) {
+          containerElement.classList.remove(HIDDEN_CLASS);
+          snakeStartAndRun(GAME_CANVAS_ID, closeSnakeGame);
+        }
+      } else {
+        alert('Ops... Looks like your browser isn\'t supported.');
+      }
+    }
+  </script>
 </body>
 
 </html>
