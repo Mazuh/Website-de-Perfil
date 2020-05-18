@@ -3634,3 +3634,25 @@ body.is-preload #header:after {
   }
 }
 
+/* Custom */
+
+.logo {
+  border-radius: 50%;
+}
+
+.main-networks-list {
+  list-style: none;
+}
+
+.reading-section {
+  text-align: left !important;
+}
+
+.main.style2 {
+  color: #fff;
+}
+
+.medium-widget-container {
+  max-width: 900px;
+  margin: auto;
+}
